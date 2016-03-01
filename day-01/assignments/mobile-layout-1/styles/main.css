@@ -1,0 +1,134 @@
+body {
+	padding: 0.5em;
+}
+
+ul {margin: 0;}
+
+/* home page styles */
+
+.home_header, article { background-color: #5e0000 }
+
+.home_header, .inside_header {
+	color: #fff;
+	height: 3em;
+	line-height: 3em;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.125em;
+}
+
+section {
+	background-color: #fff;
+}
+
+.nested {
+	background-color: #280000;
+	height: 51.625em;
+	padding-top: 57.3125em;
+}
+
+
+.little_boxes article {
+	height: 14.065em;
+	margin: 4em 0.625em 2em 0.625em;
+}
+
+.firstbox article {
+	background-color: #ff0000;
+	height: 24.0625em;
+	margin: 0 0 2em 0;
+}
+
+.outer {
+	background-color: #b00000;
+	padding-top: 8.75em;
+	height: 30.125em;
+}
+
+.inner {
+	height: 25.75em;
+	background-color: #e67477;
+	margin: 0 2em;
+}
+
+/* page 2 styles */
+
+.container {
+	height: 131.438em;
+	background-color: #fff;
+}
+
+.container hr {
+	border: 1.25em solid #31485f;
+	margin: 0 0 2.5em 0;
+}
+
+.inside_header {background-color: #2b3d51}
+
+.callout {
+	height: 14em;
+	background-color: #008ad9;
+	padding-top: 6.25em;
+	margin-bottom: 2.5em;
+	text-align: center;
+}
+
+.callout a {
+	display: inline-block;
+	height: 3.75em;
+	line-height: 3.75em;
+	width: 18.375em;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	border: 3px solid #fff;
+}
+
+.myinput {
+	width: 18.750em;
+	background-color: #b8e0f9;
+	margin: 0.75em 0;
+	border: 0;
+	height: 2.635em;
+}
+
+button {
+	width: 10.625em;
+	height: 2.063em;
+	border: 0;
+	background-color: #fff;
+}
+
+.services article {
+	height: 8.438em;
+	background-color: #008ad9;
+	margin: 0 0.813em 1.563em 0.813em;
+}
+
+.videobox {
+	height: 23.438em;
+	background-color: #8e9dac;
+	border: 1.563em solid #31485f;
+	margin-bottom: 2.5em;
+}
+
+.testimonials {margin-left: 1.563em; margin-right: 1.563em}
+
+.testimonials article {
+	height: 6.875em;
+	background-color: #7c8d8d;
+	margin-bottom: 2.288em;
+}
+
+.testimonials article:first-child {height: 17.188em;}
+
+.testimonials hr {border: 0.625em solid #31485f;}
+
+footer {
+	height: 2.75em;
+	background-color: #7c8d8d;
+	border: 0.813em solid black;
+}
